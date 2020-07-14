@@ -4,7 +4,7 @@ Contract.make {
     description "should return a loan when the Id is equal to 1"
     request{
         method GET()
-        url("loans/getLoan/") {
+        url("/loans/getLoan/") {
             queryParameters {
                 parameter("id", "1")
             }
